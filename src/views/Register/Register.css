@@ -1,0 +1,39 @@
+.Register {
+  max-width: 600px;
+  margin: 200px auto;
+  padding: 40px 60px;
+  background-color: rgb(215, 215, 215);
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  font-size: 1.25em;
+}
+
+.Register .Form {
+  margin: 0 auto;
+  width: 400px;
+  display: block;
+}
+
+.Register .Form label {
+  width: 200px;
+  display: inline-block;
+}
+
+.Register .Form input {
+  width: 150px;
+  display: inline-block;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.Register .Form button {
+  margin: 0 auto;
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0 20px;
+}
+
+.Register .Form button:hover {
+  cursor: pointer;
+}

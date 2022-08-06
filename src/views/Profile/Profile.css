@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.profile-wrapper{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h4, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.left > img {
+  width: 150px;
+}
+
+.profile-wrapper {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 15%);
+  width: 1100px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(0, 123, 255, 0.08);
+  margin-bottom: 150px;
+}
+
+.left > h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.profile-wrapper .left {
+   width: 18%;
+   background: linear-gradient(to left, #360101, #680000);
+   padding: 30px 25px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   text-align: center;
+   color: #fff;
+}
+
+.profile-wrapper .left img {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.profile-wrapper .left p {
+  font-size: 15px;
+}
+
+.profile-wrapper .right {
+  width: 82%;
+  background: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 30px 25px;
+}
+
+.profile-wrapper .right .posts,
+.profile-wrapper .right .user-info {
+  margin-bottom: 25px;
+}
+
+.profile-wrapper .right h3,
+.profile-wrapper .right h3 {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.profile-wrapper .right .posts,
+.profile-wrapper .right .user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-wrapper .right .posts .data {
+
+}
+
+.profile-wrapper .right .user-info .data{
+  width: 500px;
+}
+
+.profile-wrapper .right .user-info h4,
+.profile-wrapper .right .posts h4 {
+  color: #353c4e;
+  margin-bottom: 5px;
+}
+
+.profile-wrapper .right .user-info p,
+.profile-wrapper .right .posts p {
+  color: #919aa3;
+  font-size: 17px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,5 @@
+header {
+  grid-area: header;
+  height: 200px;
+  background: url('https://m.media-amazon.com/images/M/MV5BMTEwODUwNjEwMDBeQTJeQWpwZ15BbWU3MDczMDAzODU@._V1_FMjpg_UX600_.jpg')  fixed center;
+}

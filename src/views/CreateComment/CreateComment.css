@@ -1,0 +1,14 @@
+/* text editor */
+.Editor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .editor {
+    margin-right: 1em;
+    min-width: 100px;
+  }
+  
+  .ck-editor__editable_inline {
+    min-height: 200px;
+  }

@@ -1,0 +1,55 @@
+/* Create Post Styling */
+
+div.posts-btn input {
+  padding: 10px;
+  border: 1px solid #5e9fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.1em;
+}
+
+div.posts-btn label {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.25em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+div.posts-btn button {
+  width: 100px;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #5e9fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #5e9fff;
+  color: #ffffff;
+  font-size: 1.25em;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+div.posts-btn button:hover {
+  background-color: #07439e;
+  text-decoration: underline;
+}
+
+textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 300px;
+  font-size: 1.1em;
+}
+
+/* text editor */
+.Editor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.editor {
+  margin-right: 1em;
+  min-width: 100px;
+}
+
+.ck-editor__editable_inline {
+  min-height: 200px;
+}
